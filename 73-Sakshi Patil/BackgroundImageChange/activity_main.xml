@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Background Image -->
+    <ImageView
+        android:id="@+id/bgImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image1" />
+
+    <!-- Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn1"
+            android:text="Image 1"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:text="Image 2"
+            android:layout_margin="10dp"/>
+
+        <Button
+            android:id="@+id/btn3"
+            android:text="Image 3"
+            android:layout_margin="10dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>
