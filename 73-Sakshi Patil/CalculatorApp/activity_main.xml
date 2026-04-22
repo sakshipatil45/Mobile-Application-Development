@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <!-- TITLE -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arithmetic Calculator"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#6200EE"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Input 1 -->
+    <EditText
+        android:id="@+id/num1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Number 1"
+        android:inputType="numberDecimal"
+        android:textColor="#000000"
+        android:textColorHint="#888888"
+        android:background="@android:drawable/edit_text"
+        android:padding="10dp"/>
+
+    <!-- Input 2 -->
+    <EditText
+        android:id="@+id/num2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Number 2"
+        android:inputType="numberDecimal"
+        android:textColor="#000000"
+        android:textColorHint="#888888"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:background="@android:drawable/edit_text"/>
+
+    <!-- Buttons Row -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="+"/>
+
+        <Button
+            android:id="@+id/btnSub"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="-"
+            android:layout_marginStart="10dp"/>
+
+        <Button
+            android:id="@+id/btnMul"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="*"
+            android:layout_marginStart="10dp"/>
+
+        <Button
+            android:id="@+id/btnDiv"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="/"
+            android:layout_marginStart="10dp"/>
+    </LinearLayout>
+
+    <!-- RESULT -->
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result: "
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"/>
+
+</LinearLayout>
