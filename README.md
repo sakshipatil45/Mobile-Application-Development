@@ -1,9 +1,9 @@
-# Mobile Application Development - Academic Portfolio 📱
+# Mobile Application Development - Academic Portfolio 
 
-### **Course Code:** [Course Code] | **Semester:** [Semester]
+### **Course Code:** [Course Code] | **Semester:** 6th 
 **Author:** Sakshi Patil  
 **Roll No:** 73  
-**Submission:** Experiments, Assignments, and ISE Portfolio
+**Submission:** Experiments/Assignments, and ISE 
 
 ---
 
