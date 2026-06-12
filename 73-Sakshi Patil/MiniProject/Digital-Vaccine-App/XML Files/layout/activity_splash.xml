@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient_splash"
+    tools:context=".auth.SplashActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            app:cardCornerRadius="32dp"
+            app:cardElevation="8dp"
+            android:layout_marginBottom="32dp"
+            app:cardBackgroundColor="@color/white">
+            
+            <ImageView
+                android:id="@+id/ivLogo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="16dp"
+                android:src="@drawable/logo"
+                android:scaleType="centerCrop"
+                android:contentDescription="App Logo" />
+                
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Digital Vaccine App"
+            android:textColor="@color/white"
+            android:textSize="32sp"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="-0.02" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Stay Safe, Stay Vaccinated"
+            android:textColor="@color/accent_blue_light"
+            android:textSize="16sp"
+            android:letterSpacing="0.05"
+            android:fontFamily="sans-serif" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
