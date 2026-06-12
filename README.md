@@ -1,9 +1,9 @@
 # Mobile Application Development - Academic Portfolio 
 
-### **Course Code:** [Course Code] | **Semester:** 6th 
+### **Course Name:** Mobile Application Development | **Semester:** 6th 
 **Author:** Sakshi Patil  
 **Roll No:** 73  
-**Submission:** Experiments/Assignments, and ISE 
+**Submission:** Experiments/Assignments, Mini Project, ISE and Internal Exam Programs
 
 ---
 
@@ -33,6 +33,8 @@ By completing these experiments and evaluations, the following competencies were
 | **07** | **Interactive Widgets** | Data collection through progress and rating bars. | `ProgressBar`, `RatingBar` |
 | **08** | **Navigation & Menus** | Building multi-level navigation systems. | `OptionsMenu`, `ContextMenu`, `Popup Menu`, `Custom Adapters` |
 | **09** | **System Notifications** | Foreground notifications and channels. | `NotificationManager`, `NotificationChannel` |
+| **10** | **Internal Storage** | Reading and writing data to internal storage. | `FileOutputStream`, `FileInputStream` |
+| **11** | **SQLite Database** | Storing and retrieving data using SQLite. | `SQLiteOpenHelper`, `Cursor` |
 
 ---
 
@@ -46,6 +48,10 @@ By completing these experiments and evaluations, the following competencies were
   - **Data Handling:** Passing student objects between activities using Serializable/Parcelable.
 - **Outcome:** Successfully demonstrated the ability to build a multi-screen application with complex data flow.
 
+### **Internal Practical Exam: Table Layout**
+- **Objective:** Design and implement a structured data table using Android's TableLayout.
+- **Features:** Demonstrates the use of `TableRow`, custom borders, and layout parameters to create organized, grid-like UI components.
+
 ---
 
 ## 📱 Featured Applications
@@ -55,6 +61,9 @@ A full-featured arithmetic calculator with a responsive grid layout, handling va
 
 ### **2. Personal Portfolio App**
 A digital profile application showcasing professional details, skills, and contact information, utilizing `ScrollViews` and `CardViews` for a premium look.
+
+### **3. Digital Vaccine App (Mini Project)**
+A comprehensive digital vaccination application with separate modules for citizens and administrators, built with a robust architecture for secure data access and network handling.
 
 ---
 
