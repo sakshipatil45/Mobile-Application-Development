@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:padding="16dp">
+
+    <!-- Header Row -->
+    <TableRow>
+
+        <TextView
+            android:text="Name"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/table_cell_border"/>
+
+        <TextView
+            android:text="Roll No"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/table_cell_border"/>
+
+        <TextView
+            android:text="Marks"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="8dp"
+            android:background="@drawable/table_cell_border"/>
+    </TableRow>
+
+    <!-- Row 1 -->
+    <TableRow>
+
+        <TextView
+            android:text="Sam"
+            android:padding="8dp"
+            android:background="@drawable/table_cell_border"/>
+
+        <TextView
+            android:text="101"
+            android:padding="8dp"
+            android:background="@drawable/table_cell_border"/>
+
+        <TextView
+            android:text="99"
+            android:padding="8dp"
+            android:background="@drawable/table_cell_border"/>
+    </TableRow>
+
+    <!-- Row 2 -->
+    <TableRow>
+
+        <TextView
+            android:text="Priya"
+            android:padding="8dp"
+            android:background="@drawable/table_cell_border"/>
+
+        <TextView
+            android:text="102"
+            android:padding="8dp"
+            android:background="@drawable/table_cell_border"/>
+
+        <TextView
+            android:text="95"
+            android:padding="8dp"
+            android:background="@drawable/table_cell_border"/>
+    </TableRow>
+
+    <!-- Row 3 -->
+    <TableRow>
+
+        <TextView
+            android:text="Sakshi"
+            android:padding="8dp"
+            android:background="@drawable/table_cell_border"/>
+
+        <TextView
+            android:text="103"
+            android:padding="8dp"
+            android:background="@drawable/table_cell_border"/>
+
+        <TextView
+            android:text="97"
+            android:padding="8dp"
+            android:background="@drawable/table_cell_border"/>
+    </TableRow>
+
+</TableLayout>
